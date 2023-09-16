@@ -635,10 +635,10 @@ contract CoinFlip is Ownable {
         uint32 end;
     }
 
-    address public _houseFeeReceiver = address(0x32634D7a09AFb82550dB39644172aB138aAE0e8A);
+    address public _houseFeeReceiver = address(0xFA21700dB0059cDc195E624170B54FeAFE8B0620);
     uint8 public _houseFeePercentage = 30; 
 
-    address public _devFeeReceiver = address(0x32634D7a09AFb82550dB39644172aB138aAE0e8A);
+    address public _devFeeReceiver = address(0xea14F600CE97926f24a66AAe23e29363E8113370);
     uint8 public _devFeePercentage = 3; //0.3%
 
     uint8 public _referrerFeePercentage = 5; 
